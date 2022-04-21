@@ -44,7 +44,7 @@ class Feedback extends React.Component {
 
   playAgain = () => {
     const { history } = this.props;
-    history.push('/');
+    history.push('/project-trivia');
   };
 
   render() {
@@ -61,7 +61,7 @@ class Feedback extends React.Component {
             <p data-testid="feedback-total-question">{assertions}</p>
           </div>
           <div className="feedback-buttons">
-            <Link to="/ranking">
+            <Link to="/project-trivia/ranking">
               <Button
                 variant="info"
                 type="button"

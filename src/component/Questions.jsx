@@ -242,7 +242,7 @@ class Questions extends React.Component {
         </div>
       );
     }
-    return (<Redirect to="/feedback" />);
+    return (<Redirect to="/project-trivia/feedback" />);
   }
 }
 

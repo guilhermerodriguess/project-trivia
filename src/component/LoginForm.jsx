@@ -58,7 +58,7 @@ class LoginForm extends React.Component {
       nome, email, loading, redirect,
     } = this.state;
     const disabled = this.validateBtn();
-    if (redirect) return <Redirect to="/game" />;
+    if (redirect) return <Redirect to="/project-trivia/game" />;
     if (loading) return <Loading />;
     return (
       <form id="email-password">

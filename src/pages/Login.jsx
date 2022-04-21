@@ -28,7 +28,7 @@ class Login extends React.Component {
 
   render() {
     const { redirect } = this.state;
-    if (redirect) return <Redirect to="/config" />;
+    if (redirect) return <Redirect to="/project-trivia/config" />;
     return (
       <div className="login-page">
         <header className="App-header">
